@@ -1,0 +1,21 @@
+{
+    "name": "@electrovir/backend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "compile": "npm run test:types",
+        "start": "nodemon --config configs/nodemon.json",
+        "test:types": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@augment-vir/common": "^13.4.0",
+        "@augment-vir/node-js": "^13.4.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "nodemon": "^2.0.22"
+    }
+}

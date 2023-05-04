@@ -1,0 +1,10 @@
+{
+    "watch": ["./src"],
+    "ignore": [
+        "*.test.ts",
+        "dist/**"
+    ],
+    "exitcrash": false,
+    "ext": "js,json,html,css,ts,tsx,jsx",
+    "exec": "ts-node src/index.ts"
+}

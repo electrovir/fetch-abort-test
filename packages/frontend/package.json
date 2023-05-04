@@ -1,0 +1,18 @@
+{
+    "name": "@electrovir/frontend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "compile": "npm run test:types",
+        "start": "virmator frontend",
+        "test:types": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@augment-vir/node-js": "^13.3.0",
+        "vite": "^4.3.3",
+        "vite-tsconfig-paths": "^4.2.0"
+    },
+    "dependencies": {
+        "element-vir": "^12.3.0"
+    }
+}
